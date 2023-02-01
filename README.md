@@ -1,6 +1,3 @@
-# Oh oh! Problemes! Si veus aquest text és que la web d'Engrescats de la URL ha tingut problemes! Avisa a la colla i ho intentarem solucionar el més ràpid possible. També pot ser que estiguem en manteniment.
-
-
 # engrescats.cat
 Web Placeholder per a engrescats.cat
 
