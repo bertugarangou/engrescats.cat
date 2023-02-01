@@ -13,6 +13,15 @@
          text-align: center;
          font-family: sans-serif; 
       }
+      #err {
+         width: 100%;
+      }
+      
+      @media only screen and (max-width: 600px) {
+         #err {
+            width: 512;
+         }
+      }
       
       
    </style>
@@ -20,19 +29,12 @@
 <body>
   <img id="logo" style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="logo.png" width="138" height="168">
   <p>Hola! La web no està dispoible de forma temporal. Si veus això és que ja estem solucionant el problema. Informa't pels canals oficials!</p>
-  <img id="err" style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://http.cat/503" width="100%">
+  <img id="err" style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://http.cat/503">
   <!--Yup, GitHub dona allotjament gràtis així que aquí estem aprofitant-ho-->
    <p>Si necessites contactar amb Engrescats, escriu-nos a: <b>engrescatsurl@gmail.com</b>, <b>contacte@engrescats.cat</b> o pels canals oficials.</p>
    <p>Per motius tècnics (web, serveis...) contactar amb <b>tic@engrescats.cat</b></p>
 </body>
    
    <style>
-      @media only screen and (max-width: 600px) {
-         #err {
-            width: 512;
-         }
-         #logo {
-            
-         }
-      }
+      
    </style>
