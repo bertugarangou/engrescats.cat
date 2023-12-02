@@ -13,9 +13,7 @@ build/
 *.o
 *.so
 .idea/
-*.class
 .cache/
-dist/
 parcel-bundler-cache/
 ._*
 *~
