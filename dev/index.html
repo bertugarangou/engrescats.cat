@@ -11,10 +11,12 @@
 
   <title>Els Engrescats de la URL</title>
   <!-- Bootstrap core CSS edited -->
-  <link rel="stylesheet" href="https://engrescats.cat/dev/base_style.css">
+  <!-- Canviar a https://engrescats.cat/dev/... per posar a produccio>-->
+  <link rel="stylesheet" href="/dev/base_style.css">
+  <!-- Canviar a https://engrescats.cat/dev/... per posar a produccio>-->
 
   <!-- Custom styles for this template -->
-  <link href="https://engrescats.cat/dev/style.css" rel="stylesheet">
+  <link href="/dev/style.css" rel="stylesheet">
 <body>
 
 <header>
@@ -28,8 +30,8 @@
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contacte i xarxes</h4>
           <ul class="list-unstyled">
-            <li><a href="" class="text-white">AA</a></li>
-            <li><a href="" class="text-white">BB</a></li>
+            <li><a href="" class="text-muted">AA</a></li>
+            <li><a href="" class="text-muted">BB</a></li>
           </ul>
         </div>
       </div>
@@ -37,9 +39,17 @@
   </div>
   <div class="navbar navbar-dark bg-dark box-shadow">
     <div class="container d-flex justify-content-between">
-      <a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="navbar-brand d-flex align-items-center">
+      <a href="https://www.salleurl.edu/ca/engrescats-url" class="navbar-brand d-flex align-items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-        <strong>Album</strong>
+        <strong>Web Salle</strong>
+      </a>
+      <a href="https://ca.wikipedia.org/wiki/Engrescats_de_la_URL" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+        <strong>Viquipèdia</strong>
+      </a>
+      <a href="https://www.url.edu/ca" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+        <strong>URL</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,10 +60,11 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center">
+  <section id="imatge-fons" class=" jumbotron text-center">
     <div class="container">
+      <div class="overlay-color-imatge"></div>
       <h1 class="jumbotron-heading">Els Engrescats de la URL!</h1>
-      <p class="lead text-muted">Som la Colla Castellera Universitària Els Engrescats de la Universitat Ramon Llull<p>
+      <p class="text-muted lead">Som la Colla Castellera Universitària Els Engrescats de la Universitat Ramon Llull<p>
       <p>
       </p>
     </div>
@@ -219,7 +230,7 @@
     <p class="float-right">
       <a href="/#">Torna amunt</a>
     </p>
-    <p>Web © <a href="engrescats.cat">engrescats.cat</a>.</p>
+    <p>Web © <a href="https://engrescats.cat/">engrescats.cat</a>.</p>
     <p>Noms, imatges, descripcions i tot el que pertany a la colla és propietat dels seus respectius propietaris i de la colla.</p>
   </div>
 </footer>
