@@ -1,8 +1,10 @@
 # engrescats.cat
-Web Placeholder per a engrescats.cat
+
 
 # Rutes
-- manteniment.js és el Worker de la pàgina de manteniment. Es necessita afegir el codi de resposta en JS dins de l'editor.
+- engrescats.cat : Main
+- engrescats.cat/pinyator : Pinyator
+- engrescats.cat/dev : Versió en desenvolupament
 
 ## Contacte
 Raons tècniques (web, serveis...): `tic@engrescats.cat`  
